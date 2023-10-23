@@ -1,0 +1,50 @@
+﻿Build started 2018-11-24 오후 4:41:41.
+     1>Project "C:\Users\User\documents\visual studio 2013\Projects\covertAudio\covertAudio\covertAudio.vcxproj" on node 2 (Build target(s)).
+     1>StampInf:
+         C:\Program Files\Windows Kits\8.1\bin\x86\stampinf.exe -d "*" -a "x86" -v "*" -k "1.11" -u "1.11.0" -f Win7Debug\covertAudio.inf 
+         Stamping Win7Debug\covertAudio.inf [Version] section with DriverVer=11/24/2018,16.41.41.448
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IWin7Debug\ /Zi /nologo /W4 /WX- /Od /Oi /Oy- /D _X86_=1 /D i386=1 /D STD_CALL /D DEPRECATE_DDK_FUNCTIONS=1 /D MSC_NOOPT /D _WIN32_WINNT=0x0601 /D WINVER=0x0601 /D WINNT=1 /D NTDDI_VERSION=0x06010000 /D DBG=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope- /GR- /Fo"Win7Debug\\" /Fd"Win7Debug\vc120.pdb" /Gz /wd4748 /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /FI"C:\Program Files\Windows Kits\8.1\Include\Shared\warning.h" /analyze- /errorReport:prompt /kernel -cbstring /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+ handleHDA.cpp
+         handleHDA.cpp
+     1>c:\users\user\documents\visual studio 2013\projects\covertaudio\covertaudio\covertAudio.h(59): warning C4201: nonstandard extension used : nameless struct/union
+     1>c:\users\user\documents\visual studio 2013\projects\covertaudio\covertaudio\covertAudio.h(122): warning C4201: nonstandard extension used : nameless struct/union
+     1>c:\users\user\documents\visual studio 2013\projects\covertaudio\covertaudio\covertAudio.h(127): warning C4201: nonstandard extension used : nameless struct/union
+     1>handleHDA.cpp(22): warning C4127: conditional expression is constant
+     1>handleHDA.cpp(53): warning C4242: '=' : conversion from 'uint' to 'ushort', possible loss of data
+     1>handleHDA.cpp(123): warning C4800: 'uint' : forcing value to bool 'true' or 'false' (performance warning)
+     1>handleHDA.cpp(126): warning C4800: 'uint' : forcing value to bool 'true' or 'false' (performance warning)
+     1>handleHDA.cpp(138): warning C4800: 'uint' : forcing value to bool 'true' or 'false' (performance warning)
+     1>handleHDA.cpp(141): warning C4800: 'uint' : forcing value to bool 'true' or 'false' (performance warning)
+     1>handleHDA.cpp(163): warning C4800: 'ulong' : forcing value to bool 'true' or 'false' (performance warning)
+     1>handleHDA.cpp(180): warning C4800: 'ulong' : forcing value to bool 'true' or 'false' (performance warning)
+     1>handleHDA.cpp(199): warning C4800: 'ulong' : forcing value to bool 'true' or 'false' (performance warning)
+     1>handleHDA.cpp(267): warning C4244: '=' : conversion from 'uint' to 'uchar', possible loss of data
+     1>handleHDA.cpp(283): warning C4244: '=' : conversion from 'uint' to 'uchar', possible loss of data
+     1>handleHDA.cpp(327): warning C4800: 'uint' : forcing value to bool 'true' or 'false' (performance warning)
+     1>handleHDA.cpp(345): warning C4389: '==' : signed/unsigned mismatch
+     1>handleHDA.cpp(356): warning C4389: '==' : signed/unsigned mismatch
+     1>handleHDA.cpp(411): warning C4242: '=' : conversion from 'int' to 'uchar', possible loss of data
+     1>handleHDA.cpp(412): warning C4242: '=' : conversion from 'int' to 'uchar', possible loss of data
+     1>handleHDA.cpp(445): warning C4242: '=' : conversion from 'int' to 'uchar', possible loss of data
+     1>handleHDA.cpp(447): warning C4242: '=' : conversion from 'int' to 'uchar', possible loss of data
+     1>handleHDA.cpp(454): warning C4242: '=' : conversion from 'int' to 'uchar', possible loss of data
+     1>handleHDA.cpp(456): warning C4242: '=' : conversion from 'int' to 'uchar', possible loss of data
+     1>handleHDA.cpp(485): warning C4242: '=' : conversion from 'int' to 'uchar', possible loss of data
+     1>handleHDA.cpp(487): warning C4242: '=' : conversion from 'int' to 'uchar', possible loss of data
+     1>handleHDA.cpp(494): warning C4242: '=' : conversion from 'int' to 'uchar', possible loss of data
+     1>handleHDA.cpp(496): warning C4242: '=' : conversion from 'int' to 'uchar', possible loss of data
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\documents\visual studio 2013\Projects\covertAudio\Win7Debug\covertAudio.sys" /VERSION:"6.3" /INCREMENTAL:NO /NOLOGO /WX /SECTION:"INIT,d" "C:\Program Files\Windows Kits\8.1\lib\win7\KM\x86\memcmp.lib" "C:\Program Files\Windows Kits\8.1\lib\win7\KM\x86\BufferOverflowK.lib" "C:\Program Files\Windows Kits\8.1\lib\win7\KM\x86\ntoskrnl.lib" "C:\Program Files\Windows Kits\8.1\lib\win7\KM\x86\hal.lib" "C:\Program Files\Windows Kits\8.1\lib\win7\KM\x86\wmilib.lib" /NODEFAULTLIB /MANIFEST:NO /DEBUG /PDB:"C:\Users\User\documents\visual studio 2013\Projects\covertAudio\Win7Debug\covertAudio.pdb" /SUBSYSTEM:NATIVE,"6.01" /Driver /OPT:REF /OPT:ICF /ENTRY:"GsDriverEntry@8" /RELEASE /IMPLIB:"C:\Users\User\documents\visual studio 2013\Projects\covertAudio\Win7Debug\covertAudio.lib" /MERGE:"_TEXT=.text;_PAGE=PAGE" /MACHINE:X86 /PROFILE /kernel /IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 /osversion:6.3 /pdbcompress /debugtype:pdata Win7Debug\covertAudio.obj
+         Win7Debug\handleHDA.obj
+         Win7Debug\resourceSync.obj
+         covertAudio.vcxproj -> C:\Users\User\documents\visual studio 2013\Projects\covertAudio\Win7Debug\covertAudio.sys
+       DriverTestSign:
+         C:\Program Files\Windows Kits\8.1\bin\x86\signtool.exe sign /ph /sha1 "2F22E00F70A485ADDA20F3A2F32AAEE8504E35F5" 
+         Done Adding Additional Store
+         Successfully signed: C:\Users\User\documents\visual studio 2013\Projects\covertAudio\Win7Debug\covertAudio.sys
+         
+     1>Done Building Project "C:\Users\User\documents\visual studio 2013\Projects\covertAudio\covertAudio\covertAudio.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.12

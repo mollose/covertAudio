@@ -1,0 +1,24 @@
+﻿Build started 2018-11-26 오전 9:41:25.
+     1>Project "C:\Users\User\documents\visual studio 2013\Projects\covertAudioConsole\covertAudioConsole\covertAudioConsole.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Z7 /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /GF /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt covertAudioConsole.cpp
+     1>cl : Command line warning D9007: '/Gm' requires '/Zi or /ZI'; option ignored
+         covertAudioConsole.cpp
+     1>covertAudioConsole.cpp(33): warning C4018: '<' : signed/unsigned mismatch
+     1>covertAudioConsole.cpp(141): warning C4244: '=' : conversion from 'double' to 'REFERENCE_TIME', possible loss of data
+     1>covertAudioConsole.cpp(148): warning C4244: 'argument' : conversion from 'REFERENCE_TIME' to 'DWORD', possible loss of data
+     1>covertAudioConsole.cpp(200): warning C4244: '=' : conversion from 'double' to 'REFERENCE_TIME', possible loss of data
+     1>covertAudioConsole.cpp(249): warning C4244: '=' : conversion from 'DWORD' to 'uchar', possible loss of data
+     1>covertAudioConsole.cpp(298): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>covertAudioConsole.cpp(300): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>covertAudioConsole.cpp(372): warning C4018: '<' : signed/unsigned mismatch
+     1>covertAudioConsole.cpp(456): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(283) : see declaration of 'scanf'
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\documents\visual studio 2013\Projects\covertAudioConsole\Debug\covertAudioConsole.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\User\documents\visual studio 2013\Projects\covertAudioConsole\Debug\covertAudioConsole.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\documents\visual studio 2013\Projects\covertAudioConsole\Debug\covertAudioConsole.lib" /MACHINE:X86 Debug\covertAudioConsole.obj
+         covertAudioConsole.vcxproj -> C:\Users\User\documents\visual studio 2013\Projects\covertAudioConsole\Debug\covertAudioConsole.exe
+     1>Done Building Project "C:\Users\User\documents\visual studio 2013\Projects\covertAudioConsole\covertAudioConsole\covertAudioConsole.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 2.01:43:10.
